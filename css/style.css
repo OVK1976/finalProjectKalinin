@@ -5,3 +5,17 @@ body {
     color: #8794ba;
     background: #F8F9FF;
 }
+
+.header {
+    background-image: url("../img/header/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 815px;
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
