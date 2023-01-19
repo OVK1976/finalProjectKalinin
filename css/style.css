@@ -14,10 +14,7 @@
     
     a,
     a:link,
-    a:visited {
-        text-decoration: none;
-    }
-    
+    a:visited,
     a:hover {
         text-decoration: none;
     }
@@ -36,8 +33,6 @@
     h2,
     h3,
     h4,
-    h5,
-    h6,
     p {
         font-size: inherit;
         font-weight: inherit;
@@ -87,6 +82,10 @@
     button:focus,
     button:active {
         outline: none;
+    }
+    
+    input:focus {
+        background-color: #F8F9FF;
     }
     
     button::-moz-focus-inner {
@@ -161,12 +160,12 @@
         color: #8794ba;
         text-align: center;
         display: inline-block;
-        transition: transform 0.3s ease-in;
+        transition: transform 0.2s ease-in;
     }
     
     .menu__link:hover {
         color: #ef2a82;
-        transform: scale(1.3);
+        transform: scale(1.1);
     }
     
     .menu__link:active {
@@ -516,7 +515,7 @@
         flex-shrink: 0;
     }
     
-    .companies__stars-text:hover a {
+    .lgn_color:hover {
         color: #ef2a82;
     }
     
@@ -749,7 +748,7 @@
     }
     
     .footer__menu-link:hover {
-        color: red;
+        color: #ef2a82;
     }
     
     .footer__social-list {
@@ -773,7 +772,7 @@
     }
     
     .footer__social-link:hover {
-        fill: red;
+        fill: #ef2a82;
         background-color: #fff;
     }
     
